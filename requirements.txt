@@ -1,0 +1,10 @@
+fastapi
+ray[serve]
+grpcio
+uvicorn
+pytest
+rich
+prometheus-fastapi-instrumentator
+black
+ruff
+pre-commit

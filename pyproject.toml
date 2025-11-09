@@ -1,0 +1,12 @@
+[project]
+name = "multi_model_inference"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "ray[serve]",
+    "grpcio",
+    "uvicorn",
+    "pytest",
+    "rich",
+    "prometheus-fastapi-instrumentor"
+]

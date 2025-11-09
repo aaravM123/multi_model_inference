@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Ray and temporary files
+ray_results/
+tmp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db

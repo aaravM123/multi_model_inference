@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from ray import serve
-from models.phi3_model import Phi3Model
+from src.models.phi3_model import Phi3Model
 
 app = FastAPI()
 

@@ -1,5 +1,6 @@
 # Virtual environment
 .venv/
+venv310/
 
 # Python cache files
 __pycache__/
@@ -17,3 +18,5 @@ tmp/
 # OS files
 .DS_Store
 Thumbs.db
+
+.env

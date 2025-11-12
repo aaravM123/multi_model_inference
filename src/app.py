@@ -20,6 +20,9 @@ class Phi3Service:
         result = await handle.remote(req.prompt)
         return {"response": result}
     
+def build_app():
+    return Phi3Service.bind()
+
 
 if __name__ == "__main__":
     serve.run(Phi3Service.bind())

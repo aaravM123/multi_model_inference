@@ -10,3 +10,4 @@ class Phi3Model:
     async def __call__(self, prompt:str):
         outputs = self.llm.generate([prompt], sampling_params=self.sampling_params)
         return outputs[0].outputs[0].text
+

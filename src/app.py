@@ -20,7 +20,7 @@ class Phi3Service:
         result = await handle.remote(req.prompt)
         return {"response": result}
     
-def build_app():
+def build_app(config: dict):
     return Phi3Service.bind()
 
 
